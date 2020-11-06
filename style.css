@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#root {
+    margin: 20px;
+}
+
+.normal-img {
+    height: 400px;
+    width: 500px;
+}
+
+.filtered-img {
+    height: 400px;
+    width: 500px;
+    filter: grayscale(100%);
+}
+
+button {
+    padding: 5px;
+    display: block;
+}
